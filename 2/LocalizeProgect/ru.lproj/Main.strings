@@ -1,0 +1,6 @@
+
+/* Class = "UILabel"; text = "Hellow"; ObjectID = "dZr-le-4Qg"; */
+"dZr-le-4Qg.text" = "Привет";
+
+/* Class = "UIButton"; normalTitle = "Localized"; ObjectID = "eC3-00-2VE"; */
+"eC3-00-2VE.normalTitle" = "Локализация";

@@ -1,0 +1,13 @@
+/* 
+  Localize.strings
+  LocalizeProgect
+
+  Created by Константин Савялов on 24.05.2021.
+  
+*/
+"CurrentDate" = "Date";
+"CurrentHour" = "Hour";
+"CurrentMinutes" = "Minutes";
+"CurrentSecond" = "Second";
+"CurrentMeasurement" = "Current Measure";
+"Any" = "Hour";

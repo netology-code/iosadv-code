@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vJ0-82-oQl">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Info.plist-->
+        <scene sceneID="xrB-Uw-ddS">
+            <objects>
+                <viewController title="Info.plist" id="vJ0-82-oQl" customClass="InfoPlistViewController" customModule="LocalizeProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mOk-RX-ZKk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Локализованное имя приложения:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kjk-ZP-bDI">
+                                <rect key="frame" x="49" y="93" width="316" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rsj-fc-z8A">
+                                <rect key="frame" x="186" y="145" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="orH-K3-Zn8">
+                                <rect key="frame" x="142" y="231" width="130" height="30"/>
+                                <state key="normal" title="Запросить доступ"/>
+                                <connections>
+                                    <action selector="requestAccess:" destination="vJ0-82-oQl" eventType="touchUpInside" id="0nY-0h-QGA"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="htB-dG-iNF">
+                                <rect key="frame" x="16" y="359" width="382" height="122"/>
+                                <string key="text">Подсказка: Чтобы повторить вызов системного алерта, необходимо либо перезапустить приложения без выбора одного из вариантов алерта, либо удалить приложение с симулятора и установить заново</string>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="h06-nm-dw3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Rsj-fc-z8A" firstAttribute="top" secondItem="kjk-ZP-bDI" secondAttribute="bottom" constant="31" id="38e-Ii-CaL"/>
+                            <constraint firstItem="orH-K3-Zn8" firstAttribute="centerX" secondItem="h06-nm-dw3" secondAttribute="centerX" id="3b6-MQ-BZG"/>
+                            <constraint firstItem="Rsj-fc-z8A" firstAttribute="centerX" secondItem="h06-nm-dw3" secondAttribute="centerX" id="Boc-Pg-YPI"/>
+                            <constraint firstItem="kjk-ZP-bDI" firstAttribute="top" secondItem="h06-nm-dw3" secondAttribute="top" constant="49" id="EbJ-mF-qH6"/>
+                            <constraint firstItem="kjk-ZP-bDI" firstAttribute="centerX" secondItem="h06-nm-dw3" secondAttribute="centerX" id="I8F-z0-GdZ"/>
+                            <constraint firstItem="orH-K3-Zn8" firstAttribute="top" secondItem="Rsj-fc-z8A" secondAttribute="bottom" constant="65" id="fO9-dt-sC8"/>
+                            <constraint firstItem="htB-dG-iNF" firstAttribute="centerX" secondItem="h06-nm-dw3" secondAttribute="centerX" id="ggV-rN-nIr"/>
+                            <constraint firstItem="htB-dG-iNF" firstAttribute="top" secondItem="orH-K3-Zn8" secondAttribute="bottom" constant="98" id="sv8-Jj-jQP"/>
+                            <constraint firstItem="htB-dG-iNF" firstAttribute="leading" secondItem="mOk-RX-ZKk" secondAttribute="leading" constant="16" id="x4y-Av-HFV"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="fii-dI-875"/>
+                    <connections>
+                        <outlet property="appNameDescLabel" destination="kjk-ZP-bDI" id="CKm-Ye-8eh"/>
+                        <outlet property="appNameLabel" destination="Rsj-fc-z8A" id="Slx-Qi-vs3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Oq-Da-kVo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1922" y="-565"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Rsj-fc-z8A"; */
+"Rsj-fc-z8A.text" = "";
+
+/* Class = "UILabel"; text = "Подсказка: Чтобы повторить вызов системного алерта, необходимо либо перезапустить приложения без выбора одного из вариантов алерта, либо удалить приложение с симулятора и установить заново"; ObjectID = "htB-dG-iNF"; */
+"htB-dG-iNF.text" = "Подсказка: Чтобы повторить вызов системного алерта, необходимо либо перезапустить приложения без выбора одного из вариантов алерта, либо удалить приложение с симулятора и установить заново";
+
+/* Class = "UILabel"; text = "Локализованное имя приложения:"; ObjectID = "kjk-ZP-bDI"; */
+"kjk-ZP-bDI.text" = "Локализованное имя приложения:";
+
+/* Class = "UIButton"; normalTitle = "Запросить доступ"; ObjectID = "orH-K3-Zn8"; */
+"orH-K3-Zn8.normalTitle" = "Запросить доступ";
+
+/* Class = "UIViewController"; title = "Info.plist"; ObjectID = "vJ0-82-oQl"; */
+"vJ0-82-oQl.title" = "Info.plist";

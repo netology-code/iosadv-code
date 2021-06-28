@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = ".strings"; ObjectID = "AGH-sd-TRU"; */
+"AGH-sd-TRU.text" = ".strings";
+
+/* Class = "UILabel"; text = "👤"; ObjectID = "KRQ-fx-mO1"; */
+"KRQ-fx-mO1.text" = "👤";
+
+/* Class = "UILabel"; text = "Info.plist"; ObjectID = "NUo-z2-S7C"; */
+"NUo-z2-S7C.text" = "Info.plist";
+
+/* Class = "UILabel"; text = ".stringsdict"; ObjectID = "TWJ-24-tyu"; */
+"TWJ-24-tyu.text" = ".stringsdict";
+
+/* Class = "UILabel"; text = "👥"; ObjectID = "duO-GN-LA2"; */
+"duO-GN-LA2.text" = "👥";
+
+/* Class = "UILabel"; text = "Storyboard"; ObjectID = "tdF-n7-Sgx"; */
+"tdF-n7-Sgx.text" = "Storyboard";
+
+/* Class = "UILabel"; text = "📲"; ObjectID = "u31-2i-0AG"; */
+"u31-2i-0AG.text" = "📲";
+
+/* Class = "UILabel"; text = "🧙🏿‍♂️"; ObjectID = "uH4-XR-nt3"; */
+"uH4-XR-nt3.text" = "🧙🏿‍♂️";
+
+/* Class = "UITableViewController"; title = "Локализация"; ObjectID = "vbj-sZ-qxq"; */
+"vbj-sZ-qxq.title" = "Локализация";
+
+/* Class = "UILabel"; text = "Data Formatting"; ObjectID = "wz2-iX-jel"; */
+"wz2-iX-jel.text" = "Data Formatting";
+
+/* Class = "UILabel"; text = "🕵️‍♂️"; ObjectID = "zHA-IL-GcT"; */
+"zHA-IL-GcT.text" = "🕵️‍♂️";

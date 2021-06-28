@@ -1,0 +1,15 @@
+{
+	Any = {
+		"NSStringLocalizedFormatKey" = "%#@value@";
+		value = {
+			"NSStringFormatValueTypeKey" = d;
+			"NSStringFormatSpecTypeKey" = "NSStringPluralRuleType";
+			other = "%d hours";
+			two = "%d hours";
+			many = "%d hours";
+			few = "%d hours";
+			zero = "%d hours";
+			one = "%d hour";
+		};
+	};
+}

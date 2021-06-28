@@ -1,9 +1,0 @@
-/* 
-  InfoPlist.strings
-  LocalizeProgect
-
-  Created by Константин Савялов on 24.05.2021.
-  
-*/
-
-"NSCameraUsageDescription" = "Разрешить доступ к камере, чтобы отсканировать QR-код";
